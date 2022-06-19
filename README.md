@@ -23,10 +23,38 @@
 - [X] One Seprate form also to peform addition along with Material UI Table
 - [X] MVC architecture
 - [X] Prettier and Linter Configuration
-- [ ] Dockerised (coming soon...)
+- [x] Dockerised
 - [X] Deployement steps in Readme File
 - [X] Mobile Responsive
 
+# setup using docker
+## Prerequisite
+Make sure you have [docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed on you machine.
+
+1. `git clone`
+2. `create a .env file copy content from .env.docker and do not make any change`
+
+run following command in terminal / power shell
+```
+docker-compose up -d
+```
+
+when docker will finish building the containers, access the "laravel-react-app" container using following command
+
+`docker exec -it lr_app sh`
+
+now you will be inside container
+
+run following commands
+1. `composer install && composer update`
+2. `php artisan migrate --seed`
+3. `php artisan key:gen`
+4. if npm version < 7 `npm install && npm run dev` else `npm install --legacy-peer-deps && npm run dev`
+5. `php artisan serve`
+
+open browser and check the following address
+
+`http://localhost:8100`
 
 # ScreenShots
 ![MainPage](mainPage.png)
