@@ -14,4 +14,8 @@
 11. either you can directly login with email=test@example.com and password=password
 
 # ScreenShots
-![Add Data](AddFormPage.png)
+![MainPage](mainPage.png)
+![LoginPage](loginPage.png)
+![HomePage](HomePage.png)
+![DataView](DataViewPage.png)
+![AddForm](AddFormPage.png)
