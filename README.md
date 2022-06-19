@@ -23,7 +23,7 @@
 - [X] One Seprate form also to peform addition along with Material UI Table
 - [X] MVC architecture
 - [X] Prettier and Linter Configuration
-- [ ] Dockerised
+- [ ] Dockerised (coming soon...)
 - [X] Deployement steps in Readme File
 - [X] Mobile Responsive
 
