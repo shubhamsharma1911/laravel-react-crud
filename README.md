@@ -12,3 +12,6 @@
 9. lastly run php artisan serve, to start the application
 10. create your account, login with that and you are ready to use the application
 11. either you can directly login with email=test@example.com and password=password
+
+# ScreenShots
+![Add Data](AddFormPage.png)
