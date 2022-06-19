@@ -13,6 +13,10 @@
 10. create your account, login with that and you are ready to use the application
 11. either you can directly login with email=test@example.com and password=password
 
+# checklist
+- [x] done
+
+
 # ScreenShots
 ![MainPage](mainPage.png)
 ![LoginPage](loginPage.png)
