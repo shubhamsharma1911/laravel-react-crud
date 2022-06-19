@@ -14,7 +14,18 @@
 11. either you can directly login with email=test@example.com and password=password
 
 # checklist
-- [x] done
+- [x] Frontend in React(TypeScript)
+- [X] Backend in Laravel
+- [X] CRUD Operations
+- [X] Authentication (login, signup)
+- [X] Use of InertiaJs to talk to laravel
+- [X] Material UI Table to perform CRUD Operations
+- [X] One Seprate form also to peform addition along with Material UI Table
+- [X] MVC architecture
+- [X] Prettier and Linter Configuration
+- [ ] Dockerised
+- [X] Deployement steps in Readme File
+- [X] Mobile Responsive
 
 
 # ScreenShots
